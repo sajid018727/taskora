@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taskora - Freelance Marketplace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="home">
+  <header class="topbar">
+  <div class="container topbar-shell">
+    <div class="topbar-left">
+      <a class="logo" href="index.html">Taskora</a>
+      <details class="menu-dropdown">
+        <summary>Menu</summary>
+        <div class="menu-panel">
+          <a href="pages/jobs.html">Jobs</a>
+          <a href="pages/gigs.html">Gigs</a>
+          <a href="pages/post-job.html">Post Job</a>
+          <a href="pages/payments.html">Payments</a>
+          <a href="pages/kyc.html">KYC</a>
+          <a href="pages/settings.html">Settings</a>
+          <a href="pages/dashboard.html">Dashboard</a>
+          <a href="pages/admin-kyc.html">Admin Panel</a>
+          <a href="pages/my-bids.html">My Proposals</a>
+          <a href="pages/client-bids.html">Received Proposals</a>
+        </div>
+      </details>
+    </div>
+    <nav class="nav nav-quick">
+      <a href="pages/login.html">Login</a>
+      <a href="pages/signup.html">Sign Up</a>
+      <a href="pages/api.html">API</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Build your income with remote freelancing.</h1>
+        <p>
+          Taskora is a global freelance marketplace where clients post projects and skilled people complete jobs remotely.
+        </p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+          <a class="btn btn-brand" href="pages/jobs.html">Find Jobs</a>
+          <a class="btn btn-light" href="pages/post-job.html">Hire Talent</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h3>Marketplace Snapshot</h3>
+        <div class="stats">
+          <div class="stat"><strong id="totalJobs">0</strong><div>Total Jobs</div></div>
+          <div class="stat"><strong id="totalGigs">0</strong><div>Total Gigs</div></div>
+          <div class="stat"><strong>24/7</strong><div>Remote Work</div></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>Featured Jobs</h2>
+      <div id="pageError" class="notice"></div>
+      <div class="grid" id="homeJobs"></div>
+    </section>
+
+    <section class="section">
+      <h2>Popular Gigs</h2>
+      <div class="grid" id="homeGigs"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Taskora MVP Demo - Freelance Platform Concept</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
