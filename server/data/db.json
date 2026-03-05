@@ -1,0 +1,274 @@
+{
+  "users": [
+    {
+      "id": "U1001",
+      "firstName": "Demo",
+      "middleName": "",
+      "lastName": "Client",
+      "displayName": "Demo Client",
+      "email": "client@taskora.dev",
+      "passwordHash": "$2a$10$uWPt8Gyw3Zt4P5hB8mCsruW7jvLQbaEI40f9SAs8QjlnlTjQhnBzG",
+      "role": "Client",
+      "profile": {
+        "phone": "",
+        "gender": "Prefer not to say",
+        "birthDate": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "stateRegion": "",
+        "zipCode": "",
+        "country": "",
+        "residenceCountry": ""
+      },
+      "settings": {
+        "displayName": "Demo Client",
+        "payoutEmail": "client@taskora.dev",
+        "payoutAccountNumber": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-24T00:00:00.000Z"
+    },
+    {
+      "id": "U339215",
+      "firstName": "Pro",
+      "middleName": "",
+      "lastName": "User",
+      "displayName": "Pro User",
+      "email": "test1771947338@taskora.dev",
+      "passwordHash": "$2a$10$STUtgfw3Wn2aeaoGDsJUMeO1h2FiS/V4DOOejbLIpDkAdNXIYFT56",
+      "role": "Freelancer",
+      "profile": {
+        "phone": "",
+        "gender": "Male",
+        "birthDate": "1998-08-21",
+        "addressLine1": "123 Main St",
+        "addressLine2": "",
+        "city": "Dallas",
+        "stateRegion": "Texas",
+        "zipCode": "75001",
+        "country": "United States",
+        "residenceCountry": "United States"
+      },
+      "settings": {
+        "displayName": "Pro User",
+        "payoutEmail": "test1771947338@taskora.dev",
+        "payoutAccountNumber": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-24T15:35:39.215Z"
+    },
+    {
+      "id": "U722555",
+      "firstName": "Flow",
+      "middleName": "",
+      "lastName": "User",
+      "displayName": "Flow User",
+      "email": "flow1771948722@taskora.dev",
+      "passwordHash": "$2a$10$3Ct0dY6RrEFQe6/Mx1H5W.xk0MNEER6vjPRPuQFV8/FE18RqPswhO",
+      "role": "Freelancer",
+      "profile": {
+        "phone": "",
+        "gender": "Male",
+        "birthDate": "1999-01-01",
+        "addressLine1": "Street 1",
+        "addressLine2": "",
+        "city": "Austin",
+        "stateRegion": "TX",
+        "zipCode": "73301",
+        "country": "United States",
+        "residenceCountry": "United States"
+      },
+      "createdAt": "2026-02-24T15:58:42.555Z",
+      "settings": {
+        "displayName": "Flow Pro",
+        "payoutEmail": "flow1771948722@taskora.dev",
+        "payoutAccountNumber": "01700112233",
+        "phone": "+8801700112233"
+      }
+    },
+    {
+      "id": "U9001",
+      "firstName": "Platform",
+      "middleName": "",
+      "lastName": "Admin",
+      "displayName": "Platform Admin",
+      "email": "admin@taskora.dev",
+      "passwordHash": "$2a$10$blyXVNXv1i1dacCvuHCHEOE32LJbh8m8QoIS8IxCJB8pFO6LiaNAa",
+      "role": "Admin",
+      "profile": {
+        "phone": "",
+        "gender": "Prefer not to say",
+        "birthDate": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "stateRegion": "",
+        "zipCode": "",
+        "country": "",
+        "residenceCountry": ""
+      },
+      "settings": {
+        "displayName": "Platform Admin",
+        "payoutEmail": "admin@taskora.dev",
+        "payoutAccountNumber": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-24T00:00:00.000Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "J1001",
+      "title": "React Dashboard Developer Needed",
+      "budget": "$400 - $600",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "type": "Remote",
+      "posted": "2h ago",
+      "description": "Build a clean analytics dashboard with charts, auth flow, and responsive layout.",
+      "createdAt": "2026-02-24T12:00:00.000Z",
+      "postedBy": "Demo Client",
+      "postedById": "U1001"
+    },
+    {
+      "id": "J1002",
+      "title": "SEO Specialist for E-commerce Site",
+      "budget": "$150/week",
+      "category": "Digital Marketing",
+      "level": "Expert",
+      "type": "Remote",
+      "posted": "5h ago",
+      "description": "Looking for technical + on-page SEO expert for product ranking and schema optimization.",
+      "createdAt": "2026-02-24T10:00:00.000Z",
+      "postedBy": "Demo Client",
+      "postedById": "U1001"
+    },
+    {
+      "id": "J1003",
+      "title": "Virtual Assistant for Lead Scraping",
+      "budget": "$5/task",
+      "category": "Micro Jobs",
+      "level": "Beginner",
+      "type": "Part-time",
+      "posted": "1d ago",
+      "description": "Collect contact info from directories and validate leads in Google Sheets.",
+      "createdAt": "2026-02-23T09:00:00.000Z",
+      "postedBy": "Demo Client",
+      "postedById": "U1001"
+    }
+  ],
+  "gigs": [
+    {
+      "id": "G2001",
+      "title": "I will design your logo in 24 hours",
+      "price": "$25",
+      "seller": "Rafi Studio",
+      "rating": 4.9,
+      "category": "Design",
+      "delivery": "1 day"
+    },
+    {
+      "id": "G2002",
+      "title": "I will build responsive WordPress website",
+      "price": "$80",
+      "seller": "Nabil Dev",
+      "rating": 4.8,
+      "category": "Web Development",
+      "delivery": "3 days"
+    },
+    {
+      "id": "G2003",
+      "title": "I will do targeted b2b lead generation",
+      "price": "$20",
+      "seller": "Task Hunter",
+      "rating": 4.7,
+      "category": "Micro Jobs",
+      "delivery": "2 days"
+    }
+  ],
+  "bids": [
+    {
+      "id": "B9001",
+      "jobId": "J1001",
+      "userId": "U1001",
+      "freelancerName": "Demo Client",
+      "freelancerEmail": "client@taskora.dev",
+      "amount": "$450",
+      "deliveryDays": "7",
+      "coverLetter": "I can deliver this dashboard with clean architecture and responsive UI.",
+      "status": "pending",
+      "createdAt": "2026-02-24T13:00:00.000Z",
+      "updatedAt": null
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "PM5001",
+      "userId": "U1001",
+      "type": "Bank",
+      "provider": "Chase",
+      "accountName": "Demo Client",
+      "accountEmail": "client@taskora.dev",
+      "accountLast4": "1024",
+      "country": "United States",
+      "currency": "USD",
+      "isDefault": true,
+      "createdAt": "2026-02-24T14:00:00.000Z"
+    },
+    {
+      "id": "PM339369",
+      "userId": "U339215",
+      "type": "Bank",
+      "provider": "Wise",
+      "accountName": "Pro User",
+      "accountEmail": "test1771947338@taskora.dev",
+      "accountLast4": "7766",
+      "country": "United States",
+      "currency": "USD",
+      "isDefault": true,
+      "createdAt": "2026-02-24T15:35:39.369Z"
+    },
+    {
+      "id": "PM722648",
+      "userId": "U722555",
+      "type": "Mobile Wallet",
+      "provider": "bKash",
+      "accountName": "Flow User",
+      "accountEmail": "flow1771948722@taskora.dev",
+      "accountLast4": "2233",
+      "country": "Bangladesh",
+      "currency": "BDT",
+      "isDefault": true,
+      "createdAt": "2026-02-24T15:58:42.648Z"
+    }
+  ],
+  "kycSubmissions": [
+    {
+      "id": "KYC722666",
+      "userId": "U722555",
+      "idType": "Passport",
+      "idNumber": "P1234567",
+      "documentCountry": "Bangladesh",
+      "fullName": "Flow User",
+      "dateOfBirth": "1999-01-01",
+      "status": "approved",
+      "notes": "Verified by admin",
+      "createdAt": "2026-02-24T15:58:42.666Z",
+      "updatedAt": "2026-02-24T16:05:45.665Z",
+      "reviewedBy": "admin@taskora.dev"
+    }
+  ],
+  "passwordResets": [
+    {
+      "id": "PR722676",
+      "userId": "U722555",
+      "email": "flow1771948722@taskora.dev",
+      "token": "136451",
+      "used": true,
+      "createdAt": "2026-02-24T15:58:42.676Z",
+      "expiresAt": "2026-02-24T16:13:42.676Z",
+      "usedAt": "2026-02-24T15:58:42.867Z"
+    }
+  ]
+}
